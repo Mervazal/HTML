@@ -1,0 +1,67 @@
+h1{
+    color: rgb(96, 113, 150);
+    font-weight: 700;
+    font-size: 75px;
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+h2{
+    color: rgb(96, 113, 150);
+    font-weight: 300;  
+    font-size: 40px;
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+body{
+    background-color:rgb(255, 199, 89);
+    font-family: 'Dancing Script', 'Lato', sans-serif, cursive;
+    font-size: 25px;
+}
+nav{
+    background-color: #FF7B9C;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    background-color: #E8E9ED;
+    padding:5px
+}
+.cajadetexto{
+    background-color: rgb(255, 199, 89);
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+.cajadeimagen{
+    background-color: rgb(255, 199, 89);
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+.menu{
+    background-color: FF7B9C;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+.text{
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+    font-size: 25px;
+}
+
+@media (min-width:600px)
+h1{
+    color: rgb(96, 113, 150);
+    font-weight: 700;
+    font-size: 400px;
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
+h2{
+    color: rgb(96, 113, 150);
+    font-weight: 300;  
+    font-size: 60px;
+    font-family:'Dancing Script', 'Lato', sans-serif, cursive;
+}
